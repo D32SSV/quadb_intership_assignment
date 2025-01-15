@@ -1,4 +1,46 @@
 {
-  "name": "quadb_intership_assignment",
-  "displayName": "quadb_intership_assignment"
+  "expo": {
+    "name": "quadb_intership_assignment",
+    "slug": "quadb_intership_assignment",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/red.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/red.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.cap10.quadb_intership_assignment"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6b90bf19-69ad-4dba-a43a-55438bf92f45"
+      }
+    }
+  }
 }
